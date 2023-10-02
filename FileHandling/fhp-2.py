@@ -1,5 +1,5 @@
 import os
-fname= input('enter a file name')
+fname= input('enter a file name : ')
 if os.path.isfile(fname):
     print(f'{fname} is avialble')
     lcount = 0
