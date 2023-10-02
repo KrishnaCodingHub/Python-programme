@@ -1,0 +1,5 @@
+f1=open('bird.jpg', 'rb')
+f2=open('bird2.jpg','wb')
+data=f1.read()
+f2.write(data)
+print('new image is aviable with the name bird2.jpg')
