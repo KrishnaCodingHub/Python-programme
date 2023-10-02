@@ -1,0 +1,3 @@
+krishna
+krishna Kushwaha
+100 200 3000python -u "w:\Python programme\FileHandling\fhp-7.py"

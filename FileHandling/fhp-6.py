@@ -1,0 +1,8 @@
+f=open("test2.txt", "a+")
+str=list (input("enter a list :"))
+f.writelines(str)
+print("data enter successfully ")
+f=open("test2.txt", "r")
+name=f.read()
+print(" Good Morning :", name)
+f.close()
