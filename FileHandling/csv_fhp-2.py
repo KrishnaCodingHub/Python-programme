@@ -5,7 +5,7 @@ with open('emp7.csv', 'a+', newline='')as fname:
     data=list(csv.reader(fname))
     colname=['Eno','Ename', 'Ephone' ]
     for col in data:
-        if colname not in col:
+        if colname not in col[0]:
             w.writerow(colname)
     while True:
         eno=int(input('Enter employee No :'))
